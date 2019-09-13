@@ -24,8 +24,6 @@ public class Ekwipunek : MonoBehaviour
     void OnGUI()
     {
         GUI.Box(new Rect((Screen.width / 2) - szerokoscOkna / 2 + 10, Screen.height * 2 - (wysokoscOkna + 95), szerokoscOkna, wysokoscOkna), "");
-        GUI.Box(new Rect(), "2");
-        GUI.Box(new Rect(), "3");
 
     }
 }
