@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Skrypt\Ekwipunek.cs" />
      <Compile Include="Assets\Skrypt\Gracz.cs" />
      <Compile Include="Assets\Skrypt\Ognisko.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
