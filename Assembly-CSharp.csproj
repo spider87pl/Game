@@ -65,6 +65,7 @@
     <Compile Include="Assets\Skrypt\Ekwipunek.cs" />
     <Compile Include="Assets\Skrypt\Gracz.cs" />
     <Compile Include="Assets\Skrypt\Ognisko.cs" />
+    <Compile Include="Assets\Skrypt\OgniskoObrazenia.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity/GIT/Game2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
