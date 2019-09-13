@@ -52,6 +52,7 @@ public class Ognisko : MonoBehaviour
         if (czyZapalic == true )
         {
             GUI.Box(new Rect((Screen.width / 2) - 100, (Screen.height * 2) - Screen.height - 150, 200, 50), " Nacisnij E aby zapalic ognisko");
+            GUI.Box(new Rect((Screen.width / 2) - 100, (Screen.height * 2) - Screen.height - 150, 200, 50), " aaaa");
         }
     }
 }
