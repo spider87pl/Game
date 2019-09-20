@@ -55,12 +55,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Skrypt\Drzewo.cs" />
+     <Compile Include="Assets\Skrypt\DrzewoGracz.cs" />
+     <Compile Include="Assets\Skrypt\DrzewoRayCast.cs" />
      <Compile Include="Assets\Skrypt\Ekwipunek.cs" />
      <Compile Include="Assets\Skrypt\Gracz.cs" />
+     <Compile Include="Assets\Skrypt\Item.cs" />
      <Compile Include="Assets\Skrypt\Ognisko.cs" />
      <Compile Include="Assets\Skrypt\OgniskoObrazenia.cs" />
+     <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/GRZEGORZ/Documents/GitHub/Game/Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TerrainTools">
+ <HintPath>C:/Users/GRZEGORZ/Documents/GitHub/Game/Game/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Editor">
  <HintPath>C:/Users/GRZEGORZ/Documents/GitHub/Game/Game/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
@@ -103,6 +111,9 @@
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/GRZEGORZ/Documents/GitHub/Game/Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TerrainTools.Editor">
+ <HintPath>C:/Users/GRZEGORZ/Documents/GitHub/Game/Game/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>C:/Users/GRZEGORZ/Documents/GitHub/Game/Game/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
