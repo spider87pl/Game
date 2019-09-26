@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Ekwipunek>
+  <Item>
+    <nazwaItem>UNUSED</nazwaItem>
+    <opisItem>UNUSED</opisItem>
+    <iloscOdnawianiaGloduItem>0</iloscOdnawianiaGloduItem>
+    <silaItem>0</silaItem>
+    <typeItem>None</typeItem>
+    <czyItemJestStakowany>true</czyItemJestStakowany>
+  </Item>
+  
+  <Item>
+    <nazwaItem>Drzewo</nazwaItem>
+    <opisItem>Duża Bela Drzewa</opisItem>
+    <iloscOdnawianiaGloduItem>0</iloscOdnawianiaGloduItem>
+    <silaItem>0</silaItem>
+    <typeItem>MaterialyBudowlane</typeItem>
+    <czyItemJestStakowany>true</czyItemJestStakowany>
+  </Item>
+
+  <Item>
+    <nazwaItem>Kamień</nazwaItem>
+    <opisItem>Duża Kamień</opisItem>
+    <iloscOdnawianiaGloduItem>0</iloscOdnawianiaGloduItem>
+    <silaItem>0</silaItem>
+    <typeItem>MaterialyBudowlane</typeItem>
+    <czyItemJestStakowany>true</czyItemJestStakowany>
+  </Item>
+  
+  
+</Ekwipunek>
