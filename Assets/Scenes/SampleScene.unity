@@ -279,17 +279,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 3581d64732f3f974b84efc1930b9090d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.26
+      value: 52.96
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3581d64732f3f974b84efc1930b9090d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.95
+      value: 7.73
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3581d64732f3f974b84efc1930b9090d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.62
+      value: 42.12
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3581d64732f3f974b84efc1930b9090d,
         type: 3}
@@ -329,6 +329,46 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 3581d64732f3f974b84efc1930b9090d,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600908666959217195, guid: 3581d64732f3f974b84efc1930b9090d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600908666959217195, guid: 3581d64732f3f974b84efc1930b9090d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600908666959217195, guid: 3581d64732f3f974b84efc1930b9090d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600908666959217195, guid: 3581d64732f3f974b84efc1930b9090d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600908666959217195, guid: 3581d64732f3f974b84efc1930b9090d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600908666959217195, guid: 3581d64732f3f974b84efc1930b9090d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600908666959217195, guid: 3581d64732f3f974b84efc1930b9090d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600908666959217195, guid: 3581d64732f3f974b84efc1930b9090d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -982,8 +1022,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: -0, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -1, y: 0, z: -1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1400663253}
@@ -1044,6 +1084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 701776604}
   - component: {fileID: 701776605}
+  - component: {fileID: 701776606}
   m_Layer: 0
   m_Name: Ekwipunek
   m_TagString: Untagged
@@ -1075,6 +1116,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5f1946a0a368e145b52dfe2587e7901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &701776606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701776603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a414cc61aa3559f41875e97febd43775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   szerokoscOkna: 0

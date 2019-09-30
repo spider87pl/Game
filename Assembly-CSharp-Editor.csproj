@@ -55,40 +55,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\AssemblyInfo.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\Interface\IAssetDatabase.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\Interface\IEvent.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\Interface\IGL.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\Interface\IGUIUtility.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\Interface\IHandles.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\Interface\ISpriteEditorDataProvider.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\Interface\ITexture.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\Interface\IUndoSystem.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\ShapeEditor\ShapeEditor.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\ShapeEditor\ShapeEditorRectSelection.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditor\SpriteEditorHandles.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditor\SpriteEditorMenu.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditor\SpriteEditorUtility.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditor\SpriteEditorWindow.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditor\SpriteRect.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditor\SpriteUtilityWindow.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditorModule\ISpriteEditorModule.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteEditorData.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModule.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModuleBase.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModuleBaseView.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModuleView.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpritePolygonModeModule.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpritePolygonModeModuleView.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteOutlineModule.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditorModule\SpritePhysicsShapeModule.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteSecondaryTexturesModule.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditorModule\TextureImporterDataProvider.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Editor\SpriteEditorModule\TextureImporterDataProviderImplementation.cs" />
-     <Compile Include="Assets\com.unity.2d.sprite\Tests\Editor\SpritePackageTests.cs" />
-     <None Include="Assets\com.unity.2d.sprite\Editor\UI\SpriteEditor\SpriteEditor.uss" />
-     <None Include="Assets\com.unity.2d.sprite\Editor\UI\SpriteEditor\PolygonChangeShapeWindow.uxml" />
-     <None Include="Assets\com.unity.2d.sprite\Editor\UI\SpriteEditor\SpriteFrameModuleInspector.uxml" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\AntialiasingEditor.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\BloomEditor.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\CreaseShadingEditor.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\SunShaftsEditor.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\TonemappingEditor.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>C:/Users/GRZEGORZ/Documents/GitHub/Game/Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
@@ -97,6 +77,9 @@
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/GRZEGORZ/Documents/GitHub/Game/Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TerrainTools">
+ <HintPath>C:/Users/GRZEGORZ/Documents/GitHub/Game/Game/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Editor">
  <HintPath>C:/Users/GRZEGORZ/Documents/GitHub/Game/Game/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
@@ -139,6 +122,9 @@
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/GRZEGORZ/Documents/GitHub/Game/Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TerrainTools.Editor">
+ <HintPath>C:/Users/GRZEGORZ/Documents/GitHub/Game/Game/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>C:/Users/GRZEGORZ/Documents/GitHub/Game/Game/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
