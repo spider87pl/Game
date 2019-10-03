@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7326ff0c2d455f24aa55b61c94251b7e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - GameLogo: {fileID: 2800000, guid: 14cf6cca99056de439361947fae81cf3, type: 3}
+  - skin: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

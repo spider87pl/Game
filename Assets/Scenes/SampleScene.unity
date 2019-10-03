@@ -256,7 +256,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 0.999855, b: 0.8443396, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -708,11 +708,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a414cc61aa3559f41875e97febd43775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  szerokoscOkna: 0
-  wysokoscOkna: 0
-  szerokoscOkna2: 0
-  wysokoscOkna2: 0
-  liczbaSlotow: 0
 --- !u!1001 &1400663252
 PrefabInstance:
   m_ObjectHideFlags: 0
